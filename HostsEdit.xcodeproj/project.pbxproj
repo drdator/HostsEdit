@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2056183C133BE957002D2241 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2056183B133BE957002D2241 /* Cocoa.framework */; };
+		2056183E133BE957002D2241 /* PreferencePanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2056183D133BE957002D2241 /* PreferencePanes.framework */; };
+		20561848133BE957002D2241 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20561846133BE957002D2241 /* InfoPlist.strings */; };
+		2056184B133BE957002D2241 /* HostsEdit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2056184A133BE957002D2241 /* HostsEdit.h */; };
+		2056184D133BE957002D2241 /* HostsEdit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2056184C133BE957002D2241 /* HostsEdit.m */; };
+		2056184F133BE957002D2241 /* HostsEdit.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 2056184E133BE957002D2241 /* HostsEdit.tiff */; };
+		20561852133BE957002D2241 /* HostsEdit.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20561850133BE957002D2241 /* HostsEdit.xib */; };
+		205E5F77133BEC7300F75134 /* SecurityInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 205E5F76133BEC7300F75134 /* SecurityInterface.framework */; };
+		205E5F79133BEDB700F75134 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 205E5F78133BEDB700F75134 /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20561838133BE957002D2241 /* HostsEdit.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HostsEdit.prefPane; sourceTree = BUILT_PRODUCTS_DIR; };
+		2056183B133BE957002D2241 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2056183D133BE957002D2241 /* PreferencePanes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanes.framework; path = System/Library/Frameworks/PreferencePanes.framework; sourceTree = SDKROOT; };
+		20561840133BE957002D2241 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		20561841133BE957002D2241 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		20561842133BE957002D2241 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		20561845133BE957002D2241 /* HostsEdit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HostsEdit-Info.plist"; sourceTree = "<group>"; };
+		20561847133BE957002D2241 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		20561849133BE957002D2241 /* HostsEdit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HostsEdit-Prefix.pch"; sourceTree = "<group>"; };
+		2056184A133BE957002D2241 /* HostsEdit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HostsEdit.h; sourceTree = "<group>"; };
+		2056184C133BE957002D2241 /* HostsEdit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HostsEdit.m; sourceTree = "<group>"; };
+		2056184E133BE957002D2241 /* HostsEdit.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = HostsEdit.tiff; sourceTree = "<group>"; };
+		20561851133BE957002D2241 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HostsEdit.xib; sourceTree = "<group>"; };
+		205E5F76133BEC7300F75134 /* SecurityInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SecurityInterface.framework; path = System/Library/Frameworks/SecurityInterface.framework; sourceTree = SDKROOT; };
+		205E5F78133BEDB700F75134 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20561833133BE957002D2241 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2056183C133BE957002D2241 /* Cocoa.framework in Frameworks */,
+				2056183E133BE957002D2241 /* PreferencePanes.framework in Frameworks */,
+				205E5F77133BEC7300F75134 /* SecurityInterface.framework in Frameworks */,
+				205E5F79133BEDB700F75134 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2056182B133BE957002D2241 = {
+			isa = PBXGroup;
+			children = (
+				20561843133BE957002D2241 /* HostsEdit */,
+				2056183A133BE957002D2241 /* Frameworks */,
+				20561839133BE957002D2241 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20561839133BE957002D2241 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20561838133BE957002D2241 /* HostsEdit.prefPane */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2056183A133BE957002D2241 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				205E5F78133BEDB700F75134 /* Security.framework */,
+				205E5F76133BEC7300F75134 /* SecurityInterface.framework */,
+				2056183B133BE957002D2241 /* Cocoa.framework */,
+				2056183D133BE957002D2241 /* PreferencePanes.framework */,
+				2056183F133BE957002D2241 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2056183F133BE957002D2241 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20561840133BE957002D2241 /* AppKit.framework */,
+				20561841133BE957002D2241 /* CoreData.framework */,
+				20561842133BE957002D2241 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		20561843133BE957002D2241 /* HostsEdit */ = {
+			isa = PBXGroup;
+			children = (
+				2056184A133BE957002D2241 /* HostsEdit.h */,
+				2056184C133BE957002D2241 /* HostsEdit.m */,
+				2056184E133BE957002D2241 /* HostsEdit.tiff */,
+				20561850133BE957002D2241 /* HostsEdit.xib */,
+				20561844133BE957002D2241 /* Supporting Files */,
+			);
+			path = HostsEdit;
+			sourceTree = "<group>";
+		};
+		20561844133BE957002D2241 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20561845133BE957002D2241 /* HostsEdit-Info.plist */,
+				20561846133BE957002D2241 /* InfoPlist.strings */,
+				20561849133BE957002D2241 /* HostsEdit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		20561834133BE957002D2241 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2056184B133BE957002D2241 /* HostsEdit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		20561837133BE957002D2241 /* HostsEdit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20561855133BE957002D2241 /* Build configuration list for PBXNativeTarget "HostsEdit" */;
+			buildPhases = (
+				20561832133BE957002D2241 /* Sources */,
+				20561833133BE957002D2241 /* Frameworks */,
+				20561834133BE957002D2241 /* Headers */,
+				20561835133BE957002D2241 /* Resources */,
+				20561836133BE957002D2241 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HostsEdit;
+			productName = HostsEdit;
+			productReference = 20561838133BE957002D2241 /* HostsEdit.prefPane */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2056182D133BE957002D2241 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 20561830133BE957002D2241 /* Build configuration list for PBXProject "HostsEdit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2056182B133BE957002D2241;
+			productRefGroup = 20561839133BE957002D2241 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20561837133BE957002D2241 /* HostsEdit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20561835133BE957002D2241 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20561848133BE957002D2241 /* InfoPlist.strings in Resources */,
+				2056184F133BE957002D2241 /* HostsEdit.tiff in Resources */,
+				20561852133BE957002D2241 /* HostsEdit.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		20561836133BE957002D2241 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20561832133BE957002D2241 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2056184D133BE957002D2241 /* HostsEdit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		20561846133BE957002D2241 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20561847133BE957002D2241 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		20561850133BE957002D2241 /* HostsEdit.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20561851133BE957002D2241 /* en */,
+			);
+			name = HostsEdit.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20561853133BE957002D2241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		20561854133BE957002D2241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		20561856133BE957002D2241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HostsEdit/HostsEdit-Prefix.pch";
+				INFOPLIST_FILE = "HostsEdit/HostsEdit-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Debug;
+		};
+		20561857133BE957002D2241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HostsEdit/HostsEdit-Prefix.pch";
+				INFOPLIST_FILE = "HostsEdit/HostsEdit-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20561830133BE957002D2241 /* Build configuration list for PBXProject "HostsEdit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20561853133BE957002D2241 /* Debug */,
+				20561854133BE957002D2241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20561855133BE957002D2241 /* Build configuration list for PBXNativeTarget "HostsEdit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20561856133BE957002D2241 /* Debug */,
+				20561857133BE957002D2241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2056182D133BE957002D2241 /* Project object */;
+}
